@@ -10,9 +10,6 @@ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
-from scipy import stats
-from scipy.stats import kstest
-from scipy.stats import mannwhitneyu
 
 interp_path = 'C:/Users/tasha/OneDrive/Desktop/NOAA_Saildrone/W24/interpolation_output/2019/'
 interp_files = sorted(os.listdir(interp_path))
