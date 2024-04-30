@@ -39,7 +39,6 @@ for i in range(0, len(idxs)):  # loop through the selected variables
     label = labels[idx]
     name = names[idx]
     unit = units[idx]
-    # ax = axes[idx]
 
     fcname = f'ecmwf_all_interpolated_{sdvar}.nc'
     fc = xr.open_dataset(interp_path+fcname)
